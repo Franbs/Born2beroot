@@ -1,0 +1,46 @@
+¿Cómo funciona una máquina virtual?
+una maquina virtual es un software que te permite emular un sistema informatico en tu ropio ordenador. usa un hipervisor para administrar las maquinas virtuales y para asignar los recursos como scpu, ram etc.
+
+¿Por qué has escogido usar Debian?
+Ya tenia experiencia con debian gracias al grado que hice, ademas de que en el subject dice que  es  recomendable usarlo.
+
+Diferencias básicas entre Rocky y Debian.
+Rocky es mas estable a largo plazo ya que iene  ciclos muy argos, debian tiene una comunidad mas grande y mas soporte e informacion, y debian tambien es  mas versatil.
+
+¿Cuál es el propósito de las máquinas virtuales?
+permitirte tener varios sistemas diferentes dentro de una sola maquina fisica.
+
+Diferencias basicas  entre aptitude y apt
+apt es mas basico y rapido y viene preinstalado al menos en debian, aptitude es mas avanzado  y flexible y no viene nstalado por defecto.
+
+¿Qué es APPArmor?
+es un sistema de seguridad para linux que restringe los permisos de las apps, es decir gestiona el acceso a redes o recursos del sistema.
+
+/etc/login.defs
+/etc/pam.d/common-password
+/etc/sudoers.d/sudo_config
+/etc/ssh/sshd_config
+/etc/ssh/ssh_config
+
+lsblk
+ufw status
+service ufw status
+passwd
+service ssh status
+hostname
+hostname nuevo_host
+/etc/hostname
+which sudo
+dpkg -s sudo
+ufw allow/delete
+sudo crontab -u root -e
+cd /home/fbanzo-s/
+
+Que es ssh?
+es un protocolo de comunicacion segura que nos permite conectarnos a otros equipos de forma cifrada.
+
+Para que sirve sudo?
+permite ejecutar comandos con privilegios de root.
+
+Que es ufw?
+es un frewall para linux que facilita la gestion de seguridad y regas de rdes.
